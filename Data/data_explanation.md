@@ -1,8 +1,5 @@
-Here is a **summary explanation** of the four Excel (CSV) files you uploaded:
 
----
-
-### 🔹 1. **Client\_c.csv** (185 records, 18 columns)
+###  1. **Client\_c.csv** (185 records, 18 columns)
 
 This file contains summarized **credit card transaction and profile information** for 185 clients.
 
@@ -25,18 +22,18 @@ This file contains summarized **credit card transaction and profile information*
 
 ---
 
-### 🔹 2. **credit\_card.csv** (10,108 records, 18 columns)
+###  2. **credit\_card.csv** (10,108 records, 18 columns)
 
 This is a **detailed version of Client\_c.csv** — same structure, but with full data from all customers.
 
-💡 **Difference from Client\_c.csv**:
+ **Difference from Client\_c.csv**:
 
 * Larger dataset (full population vs. sample)
 * One additional column: `Total_Trans_Vol` (number of swipes/transactions)
 
 ---
 
-### 🔹 3. **customer.csv** (10,108 records, 15 columns)
+###  3. **customer.csv** (10,108 records, 15 columns)
 
 This dataset contains **demographic and personal info** of customers.
 
@@ -55,13 +52,12 @@ This dataset contains **demographic and personal info** of customers.
 
 ---
 
-### 🔹 4. **Customer\_c.csv** (185 records, 15 columns)
+###  4. **Customer\_c.csv** (185 records, 15 columns)
 
 This is a **subset/sample** of `customer.csv` – contains only 185 customer records, likely matching the sample in `Client_c.csv`.
 
 ---
 
-### ✅ Summary of Usage:
 
 You can **merge** `Client_c.csv` with `Customer_c.csv` (or the full files) on `Client_Num` to create a **complete customer profile**, useful for:
 
@@ -70,4 +66,3 @@ You can **merge** `Client_c.csv` with `Customer_c.csv` (or the full files) on `C
 * Churn prediction
 * Marketing targeting
 
-Let me know if you'd like a merged version or visual summary!
