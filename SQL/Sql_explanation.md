@@ -4,11 +4,11 @@
 CREATE DATABASE ccdb;
 ```
 
-Creates a new database called **`ccdb`** (short for *Credit Card Database*).
+Creates a new database called **`Credit Card Database`**
 
 ---
 
-###  **1. Create Table: `cc_detail`** (Credit Card Transaction Data)
+###  **1. Create Table: **`Credit Card Transaction Data`**
 
 ```sql
 CREATE TABLE cc_detail (
