@@ -1,87 +1,95 @@
-# Credit_Card_Expense_Analysis_Dashboard
+#  Credit Card Expense Analysis Dashboard
 
-## 📌 Project Objective
+##  Project Objective
 
-## 📊 Dashboards Overview
+The primary goal of this project is to **analyze customer and transaction-level credit card data** to generate actionable insights using **Power BI Dashboards**. These insights help stakeholders understand customer behavior, revenue patterns, and cost breakdowns to improve business strategies.
+
+---
+
+##  Dashboard Overview
 
 This project features two interactive **Power BI Dashboards**:
 
-1. **Customer Dashboard**
+### 1.  Customer Dashboard
 
-   * Tracks customer demographics and behavior.
-   * Includes visuals for:
+Focuses on customer demographics and revenue contribution.
 
-     * Revenue by gender, state, marital status
-     * Customer job vs revenue
-     * Education level
-     * Salary group, dependent count, and age group
-     * Revenue trend over time
+**Key Visuals:**
 
-2. **Transaction Dashboard**
+* Revenue by gender, state, and marital status
+* Job role vs revenue
+* Education level distribution
+* Salary group, number of dependents, and age group analysis
+* Revenue trend over time
 
-   * Focuses on transaction performance and cost metrics.
-   * Includes:
+### 2.  Transaction Dashboard
 
-     * Revenue by card category
-     * Revenue by customer job and expenditure type
-     * Annual fees, interest earned
-     * Use of payment method (chip, swipe, online)
-     * Acquisition cost by card tier
-     * Quarterly trends in transaction volume and revenue
+Provides insights into transaction metrics and card usage trends.
+
+**Key Visuals:**
+
+* Revenue by card category (Silver, Gold, etc.)
+* Expenditure by job role and type
+* Interest earned, annual fees breakdown
+* Payment method usage (chip, swipe, online)
+* Customer acquisition cost by card tier
+* Quarterly trends in transaction volume and revenue
 
 ---
 
-## 🧩 Data Sources
+##  Data Sources
 
 ### 1. `customer.csv` / `Customer_c.csv`
 
-Contains customer-related information including:
+Contains customer demographic and employment data:
 
-* Demographics (age, marital status, dependents, education, income)
+* Age, marital status, dependents
+* Education, income level
 * Card tier (Blue, Silver, Gold, Platinum)
-* Employment details
+* Occupation
 
 ### 2. `credit_card.csv` / `Client_c.csv`
 
-Contains transactional details such as:
+Contains transaction-level data:
 
-* Transaction amount and type
-* Revenue and interest data
-* Card usage patterns
-
----
-
-## 🧪 SQL Logic
-
-Custom SQL queries (`SQL Query (Financial).sql`) were used for:
-
-* Aggregating customer and transaction data
-* Calculating KPIs like revenue, interest, annual fees
-* Joining multiple tables for enriched analysis
+* Transaction amount, type, and method
+* Revenue and interest generated
+* Card usage behavior
 
 ---
 
-## 🛠 Tools & Technologies
+##  SQL Logic
 
-* **Power BI** – Dashboard creation
-* **SQL** – Data extraction and transformation
-* **Excel** – Data cleaning and preprocessing
-* **CSV Files** – Primary data input format
+The `SQL Query (Financial).sql` script includes:
 
----
-
-## 📈 Key Metrics Tracked
-
-* 🧮 **Total Revenue**
-* 💳 **Transaction Count & Amount**
-* 📊 **Revenue by Category (Card, Job, Gender, Region, etc.)**
-* 💰 **Customer Acquisition Cost**
-* 📆 **Weekly & Quarterly Trends**
-* 📎 **Interest Earned & Annual Fees**
+* Data aggregation and transformation
+* Calculated KPIs (Revenue, Interest, Fees)
+* Table joins for combined analysis
+* Data filtering and grouping for Power BI
 
 ---
 
-## 📂 Folder Structure
+##  Tools & Technologies
+
+* **Power BI** – Dashboard development & visualization
+* **SQL** – Data querying, transformation, and aggregation
+* **Microsoft Excel** – Data preprocessing and cleaning
+* **CSV** – Raw data input format
+
+---
+
+##  Key Metrics Tracked
+
+*  **Total Revenue Generated**
+*  **Transaction Volume & Value**
+*  **Revenue by Card Type, Gender, Job, Region**
+*  **Customer Acquisition Cost (CAC)**
+*  **Weekly, Monthly, and Quarterly Trends**
+*  **Interest Earned & Annual Fees Collected**
+
+---
+
+##  Folder Structure
 
 ```bash
 Credit_Card_Dashboard_Project/
@@ -103,21 +111,42 @@ Credit_Card_Dashboard_Project/
 
 ---
 
-## 👨‍💼 Author
+##  How to Use
 
-**GOWTHAM GS PATIL**
-Feel free to connect for any queries or collaborations!
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/gowthamgspatil/Credit_Card_Expense_Analysis_Dashboard.git
+   ```
+
+2. **Explore the SQL script:**
+
+   * Open the `sql/SQL Query (Financial).sql` file in any SQL editor.
+   * Understand how data is transformed and KPIs are derived.
+
+3. **Review the Dashboards:**
+
+   * View the dashboard PDFs in the `/dashboards` folder.
+   * (.pbix files will be available soon for full interactivity in Power BI Desktop.)
+
+4. **Inspect the data:**
+
+   * Go to the `data/` folder and explore the `.csv` files used in this project.
 
 ---
 
-## ✅ How to Use
+# Author
 
-1. Clone the repository:
+**Gowtham GS Patil**
 
-   ```bash
-   
-   ```
-2. Open the `.pbix` files in Power BI Desktop (coming soon).
-3. Review the datasets and SQL logic in the respective folders.
-4. Explore insights via dashboards in `/dashboards`.
+*  [LinkedIn](https://www.linkedin.com/in/gowthamgshivamuthy)
+*  [Email](mailto:gowthamgshivamurthy@gmail.com)
 
+Feel free to reach out for collaboration, questions, or feedback!
+
+---
+
+## 📣 Acknowledgements
+
+* This project is part of a personal data analytics portfolio.
+* Inspired by real-world financial datasets to practice **data modeling**, **KPI analysis**, and **Power BI reporting**.
